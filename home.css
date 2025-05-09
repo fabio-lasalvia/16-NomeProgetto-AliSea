@@ -1,0 +1,22 @@
+.card-img-carousel {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.jumbotron {
+  min-height: 50vh;
+  padding: 2rem;
+  background-size: cover;
+}
+
+.card {
+  transition: all 0.3s ease-in-out; /*ease-in-out mostra gradualmente lo zoom ed il dezoom*/
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
