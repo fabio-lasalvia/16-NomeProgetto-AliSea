@@ -4,9 +4,9 @@
 const PATH_PAGINA_HOME = "home.html"
 
 function caricaHome() {
-    caricaPagina(PATH_PAGINA_HOME)
+    caricaAliSea(PATH_PAGINA_HOME)
 }
 
-function caricaPagina(pagina) {
+function caricaAliSea(pagina) {
     window.location.replace(pagina)
 }
