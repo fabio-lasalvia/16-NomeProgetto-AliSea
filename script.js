@@ -7,6 +7,6 @@ function caricaHome() {
     caricaAliSea(PATH_PAGINA_HOME)
 }
 
-function caricaAliSea(pagina) {
+function caricaAliSea(pagina = PATH_PAGINA_HOME) {
     window.location.replace(pagina)
 }
