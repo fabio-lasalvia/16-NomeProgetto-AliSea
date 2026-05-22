@@ -1,3 +1,18 @@
+/////////////////////////////////////
+/////GESTIONE CARICAMENTO PAGINE/////
+/////////////////////////////////////
+const PATH_PAGINA_HOME = "home.html";
+
+function aliSea() {
+  console.log("Funzione caricaPaginaAliSea eseguita!");
+  caricaPagina(PATH_PAGINA_HOME);
+}
+
+function caricaPagina(pagina) {
+  // console.log("caricaPagina ", pagina)
+  window.location.replace(pagina);
+}
+
 function toggleSezione(id, btn) {
   let sezione = document.getElementById(id);
   let icon = btn.querySelector("i");
